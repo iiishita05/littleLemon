@@ -5,7 +5,10 @@ function App() {
     <>
       <header>
         <nav>
-          <img src="" alt="" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVy0S0XxcWUagIpu2oy8Pn3PlsrkBQ9lQAQA&s"
+            alt=""
+          />
           <ul>
             <li>
               <a href="#">Home</a>
@@ -37,28 +40,38 @@ function App() {
             <button>Book a Table</button>
           </div>
           <div className="hero-container-pic">
-            <img src="" alt="" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+              alt=""
+            />
           </div>
         </section>
 
         <section className="Highlights">
           <h3>Specials</h3>
-          <span>
-            <button>Book a Table</button>
-          </span>
+
           <div className="highlight-container">
             <div className="highlight-item">
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+                alt=""
+              />
               <h4>Title</h4>
               <p>Description</p>
             </div>
             <div className="highlight-item">
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+                alt=""
+              />
               <h4>Title</h4>
               <p>Description</p>
             </div>
             <div className="highlight-item">
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+                alt=""
+              />
               <h4>Title</h4>
               <p>Description</p>
             </div>
@@ -68,7 +81,7 @@ function App() {
           <h4>Testimonials</h4>
           <div className="testimonial-container">
             <div className="testimonial-container-item">
-              <h5>Rating</h5>
+              <h5>★★★★☆</h5>
               <img src="" alt="" />
               <span>
                 <cite>Name</cite>
@@ -79,7 +92,7 @@ function App() {
               </p>
             </div>
             <div className="testimonial-container-item">
-              <h5>Rating</h5>
+              <h5>★★★★☆</h5>
               <img src="" alt="" />
               <span>
                 <cite>Name</cite>
@@ -90,7 +103,7 @@ function App() {
               </p>
             </div>
             <div className="testimonial-container-item">
-              <h5>Rating</h5>
+              <h5>★★★★☆</h5>
               <img src="" alt="" />
               <span>
                 <cite>Name</cite>
@@ -101,7 +114,7 @@ function App() {
               </p>
             </div>
             <div className="testimonial-container-item">
-              <h5>Rating</h5>
+              <h5>★★★★☆</h5>
               <img src="" alt="" />
               <span>
                 <cite>Name</cite>
@@ -126,7 +139,10 @@ function App() {
               </p>
             </div>
             <div className="about-container-item">
-              <img src="" alt="" />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qqp7MXqRitCrmMg4AWShwvxXlBw9JNFkGw&s"
+                alt=""
+              />
             </div>
           </div>
         </section>
@@ -134,7 +150,10 @@ function App() {
       <footer>
         <div className="footer-container">
           <div className="footer-container-item">
-            <img src="" alt="" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+              alt=""
+            />
           </div>
           <div className="footer-container-item">
             <h5>DoorMat Navigation</h5>
@@ -176,9 +195,15 @@ function App() {
           <div className="footer-container-item">
             <h5>Social Media</h5>
             <ul>
-              <li href="#">Instagram</li>
-              <li href="#">FaceBook</li>
-              <li href="#">Twitter</li>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
+              <li>
+                <a href="#">FaceBook</a>
+              </li>
+              <li>
+                <a href="#">Twitter</a>
+              </li>
             </ul>
           </div>
         </div>

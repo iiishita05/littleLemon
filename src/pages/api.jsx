@@ -8,7 +8,7 @@ const seededRandom = function (seed) {
 };
 
 const fetchAPI = async function (date) {
-  // Check if the date is a valid Date object
+ 
   if (!(date instanceof Date) || isNaN(date)) {
     throw new Error("Invalid date provided to fetchAPI");
   }
@@ -28,7 +28,7 @@ const fetchAPI = async function (date) {
 };
 
 const submitAPI = function (formData) {
-  return true; // Simulate successful submission
+  return true; 
 };
 
 export default { fetchAPI, submitAPI };

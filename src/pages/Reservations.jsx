@@ -13,26 +13,26 @@ export default function Reservations() {
    const navigate = useNavigate();
   useEffect(() => {
     const fetchTimes = async (date) => {
-      console.log("Fetching times for date:", date); // Log the date being fetched
-      const times = await api.fetchAPI(date); // Pass the Date object directly
-      setAvailableTimes(times); // Set the available times in state
+      console.log("Fetching times for date:", date); 
+      const times = await api.fetchAPI(date); 
+      setAvailableTimes(times); 
     };
 
-    // Fetch times for today's date on component mount
+    
     const today = new Date();
-    fetchTimes(today); // Ensure to call the fetchTimes function with a Date object
+    fetchTimes(today); 
   }, []);
 
   const handleDateChange = async (selectedDate) => {
-    console.log("Selected date in Reservations:", selectedDate); // Log the selected date
-    const newAvailableTimes = await api.fetchAPI(selectedDate); // Fetch available times for the selected date
-    setAvailableTimes(newAvailableTimes); // Update available times
+    console.log("Selected date in Reservations:", selectedDate); 
+    const newAvailableTimes = await api.fetchAPI(selectedDate); 
+    setAvailableTimes(newAvailableTimes); 
   };
   const submitForm = async (formData) => {
     const isSuccess = await api.submitAPI(formData);
     if (isSuccess) {
       alert("Reservation submitted successfully!");
-      navigate("/confirmed"); // Call navigate to redirect to the booking confirmed page
+      navigate("/confirmed"); 
     } else {
       alert("Failed to submit the reservation.");
     }
@@ -48,7 +48,7 @@ export default function Reservations() {
             availableTimes={availableTimes}
             onDateChange={handleDateChange}
             setAvailableTimes={setAvailableTimes} 
-            submitForm={submitForm}// Pass down setAvailableTimes
+            submitForm={submitForm}
           />
         </div>
       </div>

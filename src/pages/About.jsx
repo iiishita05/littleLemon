@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
-import './About.css'
+import "./About.css";
 
 export default function About() {
   return (
     <>
       <Header />
       <section className="about">
-        <h3>Our Story</h3>
+        <h3 className="about-head">Our Story</h3>
         <div className="about-container">
-          <div className="about-container-item">
+          <div className="about-content-item">
             <p>
               At Little Lemon, our journey began with a simple yet powerful
               idea: to create something that makes a difference. It all started
@@ -26,20 +26,20 @@ export default function About() {
               brand that stands for quality, integrity, and innovation.
             </p>
           </div>
-          <div className="about-container-i">
+          <div className="about-image-item">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qqp7MXqRitCrmMg4AWShwvxXlBw9JNFkGw&s"
+              src="https://img.freepik.com/premium-photo/group-chefs-kitchen-prepare-small-cakes-arrange-them-tray-cinematic-overhead-light-ai-generated-ai-generative-ai-generativ_295714-7977.jpg"
               alt="about us"
             />
           </div>
 
-          <div className="about-container-i">
+          <div className="about-image-item">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qqp7MXqRitCrmMg4AWShwvxXlBw9JNFkGw&s"
+              src="https://media.istockphoto.com/id/649672568/photo/couple-at-a-restaurant-meal.jpg?s=612x612&w=is&k=20&c=i1wR4JiSgpIUWUX37IjcLjGCSimTIfQFYwv5m_ooavA="
               alt="about us"
             />
           </div>
-          <div className="about-container-item">
+          <div className="about-content-item">
             <p>
               At Little Lemon, our journey began with a simple yet powerful
               idea: to create something that makes a difference. It all started
@@ -56,7 +56,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="about-container-item">
+          <div className="about-content-item">
             <p>
               At Little Lemon, our journey began with a simple yet powerful
               idea: to create something that makes a difference. It all started
@@ -72,9 +72,9 @@ export default function About() {
               brand that stands for quality, integrity, and innovation.
             </p>
           </div>
-          <div className="about-container-i">
+          <div className="about-image-item">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3qqp7MXqRitCrmMg4AWShwvxXlBw9JNFkGw&s"
+              src="https://media.istockphoto.com/id/599485258/photo/casual-catering-discussion-meeting-colleagues-concept.jpg?s=612x612&w=0&k=20&c=idU_JVw93SyQ9jqYRdZnBZUxeB1Of9kBlE_Ytlq-778="
               alt="about us"
             />
           </div>

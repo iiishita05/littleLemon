@@ -24,18 +24,17 @@ const [isFormValid, setIsFormValid] = useState(false);
   
   
 
-  // Inside BookingForm.jsx
+ 
  const handleMessage = async (e) => {
    e.preventDefault();
    const formData = { date, time, guest, occasion };
   
 
-   // Call the submitForm function from props
-   await submitForm(formData); // Make sure to use props to access submitForm
-
+   
+   await submitForm(formData); 
   
 
-   // Reset form fields
+  
    setDate("");
    setTime("");
    setGuest(1);
@@ -43,26 +42,26 @@ const [isFormValid, setIsFormValid] = useState(false);
  };
 
   const handleDateChange = async (e) => {
-    const selectedDate = new Date(e.target.value); // Convert to Date object
+    const selectedDate = new Date(e.target.value); 
     setDate(selectedDate);
 
-    console.log("BookingForm: Date selected", selectedDate); // Log the selected date
+    console.log("BookingForm: Date selected", selectedDate); 
 
     if (typeof onDateChange === "function") {
-      await onDateChange(selectedDate); // Pass the Date object to onDateChange
+      await onDateChange(selectedDate); 
     }
 
-    // Fetch available times based on the selected date using the API
-    const times = await api.fetchAPI(selectedDate); // Use the Date object
+   
+    const times = await api.fetchAPI(selectedDate); 
     setAvailableTimes(times); 
-    // Update available times
+ 
     validateForm();
   };
 
   const handleGuestChange = (e) => {
     const value = Number(e.target.value);
     setGuest(value);
-    validateForm(); // Revalidate form on field change
+    validateForm(); 
   };
 
   return (

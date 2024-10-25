@@ -1,4 +1,4 @@
-// MainComponent.jsx
+
 import React, { useReducer } from "react";
 import BookingForm from "./BookingForm";
 import { useNavigate } from "react-router-dom"; 
@@ -17,12 +17,12 @@ const initialTimes = [
   "5:00 PM",
 ];
 
-// Define your reducer function
+
 function availableTimesReducer(state, action) {
   switch (action.type) {
     case "UPDATE_TIMES":
-      // Logic for updating available times based on the date
-      return state; // Placeholder for now
+      
+      return state; 
 
     default:
       return state;
@@ -30,17 +30,17 @@ function availableTimesReducer(state, action) {
 }
 
 
-// Main Component
+
 export default function MainComponent() {
   const [availableTimes, dispatch] = useReducer(
     availableTimesReducer,
     initialTimes
   );
  const navigate = useNavigate(); 
-  // Handle date change and dispatch action
+  
   const handleDateChange = (date) => {
     console.log("MainComponent: Updated Date", date);
-    dispatch({ type: "UPDATE_TIMES", payload: date }); // Dispatch to update times
+    dispatch({ type: "UPDATE_TIMES", payload: date });
   };
   console.log("MainComponent props:", {
     availableTimes,
@@ -61,8 +61,8 @@ export default function MainComponent() {
   return (
     <>
       <BookingForm
-        availableTimes={availableTimes} // Pass availableTimes here
-        onDateChange={handleDateChange} // Pass onDateChange function here
+        availableTimes={availableTimes} 
+        onDateChange={handleDateChange} 
         submitForm={submitForm}
       />
     </>

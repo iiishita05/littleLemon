@@ -3,10 +3,9 @@ import { useNavigate } from "react-router-dom";
 import "./ConfirmedBooking.css";
 
 export default function ConfirmedBooking() {
-  const navigate = useNavigate(); // Use useNavigate hook for navigation
-
+  const navigate = useNavigate(); 
   const navigateToHome = () => {
-    navigate("/"); // Navigate to the homepage
+    navigate("/"); 
   };
 
   return (

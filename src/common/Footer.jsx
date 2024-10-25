@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -6,7 +8,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-container-item">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXb59PaR-ycKvI44CuNiDGriUjLwHjO9AFyA&s"
+            src="https://r2.erweima.ai/imgcompressed/img/compressed_f4adc66aa03b9e3a0b7726e9f52318d9.webp"
             alt=""
           />
         </div>
@@ -14,22 +16,22 @@ export default function Footer() {
           <h5>DoorMat Navigation</h5>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <a href="#">Reservations</a>
+              <Link to="/reservations">Reservations</Link>
             </li>
             <li>
-              <a href="#">Order Online</a>
+              <Link to="/order-online">Order Online</Link>
             </li>
             <li>
-              <a href="#">Login</a>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
         </div>

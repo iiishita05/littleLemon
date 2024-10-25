@@ -1,0 +1,40 @@
+.menu-container {
+    background-color: #EDEFEE;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu-section h2 {
+    color: #495E57;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background-color: rgb(228, 230, 210);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.item-name {
+    color: #333333;
+    font-weight: 500;
+}
+
+.item-price {
+    color: #495E57;
+}

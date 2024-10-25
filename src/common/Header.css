@@ -47,7 +47,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: lighter;
 }
-/* For small screens and mobile devices */
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;

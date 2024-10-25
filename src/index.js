@@ -13,6 +13,7 @@ import Login from "./pages/Login";
 import Menu from "./pages/Menu";
 import Orderonline from "./pages/Orderonline";
 import Reservations from "./pages/Reservations";
+import ConfirmedBooking from "./pages/ConfirmedBooking";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -24,25 +25,28 @@ let allroutes = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About/>,
+    element: <About />,
   },
   {
     path: "/login",
-    element: <Login/>,
+    element: <Login />,
   },
   {
     path: "/menu",
-    element: <Menu/>,
+    element: <Menu />,
   },
   {
     path: "/order-online",
-    element: <Orderonline/>,
+    element: <Orderonline />,
   },
   {
     path: "/reservations",
-    element: <Reservations/>,
+    element: <Reservations />,
   },
-
+  {
+    path: "/confirmed",
+    element: <ConfirmedBooking />, // Add route for confirmed booking
+  },
 ]);
 root.render(
   <React.StrictMode>

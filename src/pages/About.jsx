@@ -32,13 +32,6 @@ export default function About() {
               alt="about us"
             />
           </div>
-
-          <div className="about-image-item">
-            <img
-              src="https://media.istockphoto.com/id/649672568/photo/couple-at-a-restaurant-meal.jpg?s=612x612&w=is&k=20&c=i1wR4JiSgpIUWUX37IjcLjGCSimTIfQFYwv5m_ooavA="
-              alt="about us"
-            />
-          </div>
           <div className="about-content-item">
             <p>
               At Little Lemon, our journey began with a simple yet powerful
@@ -54,6 +47,13 @@ export default function About() {
               leave an indelible mark on the industry, they set out to build a
               brand that stands for quality, integrity, and innovation.
             </p>
+          </div>
+
+          <div className="about-image-item">
+            <img
+              src="https://media.istockphoto.com/id/649672568/photo/couple-at-a-restaurant-meal.jpg?s=612x612&w=is&k=20&c=i1wR4JiSgpIUWUX37IjcLjGCSimTIfQFYwv5m_ooavA="
+              alt="about us"
+            />
           </div>
 
           <div className="about-content-item">

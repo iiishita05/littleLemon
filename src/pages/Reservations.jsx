@@ -32,7 +32,9 @@ export default function Reservations() {
     const isSuccess = await api.submitAPI(formData);
     if (isSuccess) {
       alert("Reservation submitted successfully!");
-      navigate("/confirmed"); 
+      navigate("/confirmed", {
+        state: { date: formData.date, time: formData.time },
+      }); 
     } else {
       alert("Failed to submit the reservation.");
     }

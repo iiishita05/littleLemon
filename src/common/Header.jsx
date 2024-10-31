@@ -1,15 +1,25 @@
-import React from 'react'
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 export default function Header() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <header>
       <nav>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVy0S0XxcWUagIpu2oy8Pn3PlsrkBQ9lQAQA&s"
-          alt=""
+          alt="Little Lemon Logo"
         />
-        <ul>
+        <button className="menu-button" onClick={toggleSidebar}>
+          ☰
+        </button>
+        <ul className={`nav-list ${isSidebarOpen ? "open" : ""}`}>
           <li>
             <Link to="/" className="nav-link">
               Home

@@ -1,11 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "./ConfirmedBooking.css";
 
 export default function ConfirmedBooking() {
-  const navigate = useNavigate(); 
+  const location = useLocation(); // To retrieve passed state
+  const { date, time } = location.state || {}; // Extract date and time from state
+  const navigate = useNavigate();
+
   const navigateToHome = () => {
-    navigate("/"); 
+    navigate("/");
   };
 
   return (
@@ -13,8 +16,9 @@ export default function ConfirmedBooking() {
       <div className="confirmation-container">
         <h1>Booking Confirmed</h1>
         <p>
-          Your booking has been successfully confirmed. We look forward to
-          seeing you!
+          Your booking has been successfully confirmed for{" "}
+          {date ? date.toLocaleDateString() : "N/A"} at {time || "N/A"}. We look
+          forward to seeing you!
         </p>
         <button onClick={navigateToHome}>Go to Homepage</button>
       </div>

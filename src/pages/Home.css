@@ -1,9 +1,20 @@
+
+
 .highlight-item img{
     height: 199px;
     width: 253px;
 }
 .about-container-item img{
-    height: 210px;
     
-}
+    width: 100%;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+       
+    }
+   
+
     
+
+

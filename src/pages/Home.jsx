@@ -3,6 +3,8 @@ import Header from "../common/Header";
 import Footer from "../common/Footer";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import Testimonial from "./Testimonial";
+
 
 export default function Home() {
    const navigate = useNavigate(); 
@@ -74,55 +76,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="testimonials">
-          <h4>Testimonials</h4>
-          <div className="testimonial-container">
-            <div className="testimonial-container-item">
-              <h5>★★★★☆</h5>
-              <img src="" alt="" />
-              <span>
-                <cite>Rahul</cite>
-              </span>
-              <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                "
-              </p>
-            </div>
-            <div className="testimonial-container-item">
-              <h5>★★★★☆</h5>
-              <img src="" alt="" />
-              <span>
-                <cite>Anjali</cite>
-              </span>
-              <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                "
-              </p>
-            </div>
-            <div className="testimonial-container-item">
-              <h5>★★★★☆</h5>
-              <img src="" alt="" />
-              <span>
-                <cite>Walter</cite>
-              </span>
-              <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                "
-              </p>
-            </div>
-            <div className="testimonial-container-item">
-              <h5>★★★★☆</h5>
-              <img src="" alt="" />
-              <span>
-                <cite>Will</cite>
-              </span>
-              <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                "
-              </p>
-            </div>
-          </div>
-        </section>
+
+        <Testimonial />
         <section className="about">
           <div className="about-container">
             <div className="about-container-item">
@@ -138,7 +93,7 @@ export default function Home() {
             </div>
             <div className="about-container-item">
               <img
-                src="https://r2.erweima.ai/imgcompressed/img/compressed_f4adc66aa03b9e3a0b7726e9f52318d9.webp"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vsRr6NGdZxBWI2M8SVGdfpsEzvyir7tPog&s"
                 alt=""
               />
             </div>

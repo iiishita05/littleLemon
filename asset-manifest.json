@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.da102cb5.css",
-    "main.js": "/static/js/main.0a919254.js",
-    "static/js/453.c5eaf93b.chunk.js": "/static/js/453.c5eaf93b.chunk.js",
-    "static/media/priya.png": "/static/media/priya.1bc8fd7e2ddd7b5f7c28.png",
-    "static/media/krish.jpeg": "/static/media/krish.b743d43d2ef521720a16.jpeg",
-    "static/media/lady.jpg": "/static/media/lady.f0f2404e67045f7c3fdf.jpg",
-    "static/media/salman.jpg": "/static/media/salman.df04967e957d1b7be297.jpg",
-    "index.html": "/index.html",
-    "main.da102cb5.css.map": "/static/css/main.da102cb5.css.map",
-    "main.0a919254.js.map": "/static/js/main.0a919254.js.map",
-    "453.c5eaf93b.chunk.js.map": "/static/js/453.c5eaf93b.chunk.js.map"
+    "main.css": "/littleLemon/static/css/main.da102cb5.css",
+    "main.js": "/littleLemon/static/js/main.16dc0b60.js",
+    "static/js/453.c5eaf93b.chunk.js": "/littleLemon/static/js/453.c5eaf93b.chunk.js",
+    "static/media/priya.png": "/littleLemon/static/media/priya.1bc8fd7e2ddd7b5f7c28.png",
+    "static/media/krish.jpeg": "/littleLemon/static/media/krish.b743d43d2ef521720a16.jpeg",
+    "static/media/lady.jpg": "/littleLemon/static/media/lady.f0f2404e67045f7c3fdf.jpg",
+    "static/media/salman.jpg": "/littleLemon/static/media/salman.df04967e957d1b7be297.jpg",
+    "index.html": "/littleLemon/index.html",
+    "main.da102cb5.css.map": "/littleLemon/static/css/main.da102cb5.css.map",
+    "main.16dc0b60.js.map": "/littleLemon/static/js/main.16dc0b60.js.map",
+    "453.c5eaf93b.chunk.js.map": "/littleLemon/static/js/453.c5eaf93b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da102cb5.css",
-    "static/js/main.0a919254.js"
+    "static/js/main.16dc0b60.js"
   ]
 }
